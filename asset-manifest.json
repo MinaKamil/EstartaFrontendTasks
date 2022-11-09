@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/EstartaFrontendTasks/static/css/main.9549477b.css",
+    "main.js": "/EstartaFrontendTasks/static/js/main.f25207ae.js",
+    "static/js/787.aeb6c5f3.chunk.js": "/EstartaFrontendTasks/static/js/787.aeb6c5f3.chunk.js",
+    "static/media/fa-solid-900.ttf": "/EstartaFrontendTasks/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
+    "static/media/fa-brands-400.ttf": "/EstartaFrontendTasks/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
+    "static/media/fa-solid-900.woff2": "/EstartaFrontendTasks/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
+    "static/media/fa-brands-400.woff2": "/EstartaFrontendTasks/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
+    "static/media/fa-regular-400.ttf": "/EstartaFrontendTasks/static/media/fa-regular-400.abf801b7acb6705a15ad.ttf",
+    "static/media/fa-regular-400.woff2": "/EstartaFrontendTasks/static/media/fa-regular-400.639d2000c1ece92eaec8.woff2",
+    "static/media/fa-v4compatibility.ttf": "/EstartaFrontendTasks/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
+    "static/media/fa-v4compatibility.woff2": "/EstartaFrontendTasks/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
+    "index.html": "/EstartaFrontendTasks/index.html",
+    "main.9549477b.css.map": "/EstartaFrontendTasks/static/css/main.9549477b.css.map",
+    "main.f25207ae.js.map": "/EstartaFrontendTasks/static/js/main.f25207ae.js.map",
+    "787.aeb6c5f3.chunk.js.map": "/EstartaFrontendTasks/static/js/787.aeb6c5f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9549477b.css",
+    "static/js/main.f25207ae.js"
+  ]
+}
