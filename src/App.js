@@ -11,7 +11,7 @@ function App() {
 	const [dataLenth, setDataLenth] = useState(data.length);
 	const tableLimit = 10;
 	const [dataList,setDataList]=useState(data.slice(0,tableLimit));
-	const [inputEmployee, setInputEmployee] = useState('');
+	const [inputLogID, setInputLogID] = useState('');
 	const [selectApplication,setSelectApplication]=useState('')
 	const [selectAction,setSelectAction]=useState('')
 	const [inputFromDate,setInputFromDate]=useState('')
@@ -53,8 +53,8 @@ function App() {
 	}
 	
 	//get input value for employee Name
-	const getEmployeeValue = (e) => {
-		setInputEmployee(e.target.value);
+	const getLogIDValue = (e) => {
+		setInputLogID(e.target.value);
 	};
 	//get select value for application type
 	const getApplicationValue = (e) => {
@@ -76,8 +76,8 @@ function App() {
 	};
 	const filterDataButton = (e) =>{
 		e.preventDefault();
-		if (inputEmployee.length !== null && inputEmployee !== ''){
-				setDataList(data.filter((el)=> el.actionType !== null ? el.actionType.toLowerCase().includes(inputEmployee.toLowerCase()):''));
+		if (inputLogID.length !== null && inputLogID !== ''){
+				setDataList(data.filter((el)=> el.logId !== null ? el.logId.toString().includes(inputLogID.toString()):''));
 		}
 		if (selectAction.length !== null && selectAction !== ''){
 			setDataList(data.filter((el)=> el.actionType !== null? el.actionType.replaceAll('_', ' ').toLowerCase().includes(selectAction.toLowerCase()):''));
@@ -101,7 +101,7 @@ function App() {
 			<FilterForm removeDuplicateApplication={removeDuplicateApplication}
 			            removeDuplicateAction={removeDuplicateAction}
 			            filterDataButton={filterDataButton}
-			            getEmployeeValue={getEmployeeValue}
+			            getLogIDValue={getLogIDValue}
 			            getApplicationValue={getApplicationValue}
 			            getActionValue={getActionValue}
 			            getApplicationIDValue={getApplicationIDValue}

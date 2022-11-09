@@ -3,7 +3,7 @@ function FilterForm(
 	{
 		removeDuplicateApplication,
 		removeDuplicateAction,
-		getEmployeeValue,
+		getLogIDValue,
 		filterDataButton,
 		getApplicationValue,
 		getApplicationIDValue,
@@ -15,10 +15,10 @@ function FilterForm(
 		<>
 			<div className="d-flex justify-content-between flex-row align-items-center mt-5">
 				<div className="mb-3">
-					<label htmlFor="EmployeeName" className="form-label">Employee Name</label>
-					<input className="form-control" id="employee" type="text"
-					       placeholder="Employee Name"
-					       onChange={getEmployeeValue}/>
+					<label htmlFor="LogID" className="form-label">Log ID</label>
+					<input className="form-control" id="LogID" type="text"
+					       placeholder="Log ID"
+					       onChange={getLogIDValue}/>
 				</div>
 				<div className="mb-3">
 					<label htmlFor="ActionType" className="form-label">Action Type</label>
