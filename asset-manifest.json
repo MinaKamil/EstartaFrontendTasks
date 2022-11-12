@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EstartaFrontendTasks/static/css/main.9549477b.css",
-    "main.js": "/EstartaFrontendTasks/static/js/main.1ce3a207.js",
+    "main.js": "/EstartaFrontendTasks/static/js/main.909fe5fa.js",
     "static/js/787.aeb6c5f3.chunk.js": "/EstartaFrontendTasks/static/js/787.aeb6c5f3.chunk.js",
     "static/media/fa-solid-900.ttf": "/EstartaFrontendTasks/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/fa-brands-400.ttf": "/EstartaFrontendTasks/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/EstartaFrontendTasks/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/EstartaFrontendTasks/index.html",
     "main.9549477b.css.map": "/EstartaFrontendTasks/static/css/main.9549477b.css.map",
-    "main.1ce3a207.js.map": "/EstartaFrontendTasks/static/js/main.1ce3a207.js.map",
+    "main.909fe5fa.js.map": "/EstartaFrontendTasks/static/js/main.909fe5fa.js.map",
     "787.aeb6c5f3.chunk.js.map": "/EstartaFrontendTasks/static/js/787.aeb6c5f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9549477b.css",
-    "static/js/main.1ce3a207.js"
+    "static/js/main.909fe5fa.js"
   ]
 }
